@@ -44,5 +44,5 @@ sudo apt-get install --no-install-recommends -y \
     ros-$ROS_DISTRO-pcl-conversions \
     $ADDITIONAL_PACKAGES
 
-pip$PYTHON_SUFFIX install --upgrade pip$PYTHON_SUFFIX
+pip$PYTHON_SUFFIX install --upgrade pip
 pip$PYTHON_SUFFIX install -r $SCRIPT_DIR/requirements.txt
